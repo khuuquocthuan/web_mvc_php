@@ -1,0 +1,139 @@
+*{padding:0;margin:0;}
+.navbar{
+	margin:0;
+	border-radius: 0px;
+}
+.navbar-inverse .navbar-brand{
+	color:#FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-brand:hover{
+	color:#CCC;
+}
+.glyphicon-th-large{
+	color:#FFF;
+}
+.caret{
+	color:#FFF;
+}
+.frm-tem button{
+	width:100%;
+	color:#FFF;
+	border-radius: 0px;
+}
+.macdinh{
+	background-color:#222;
+}
+.xanhduong{
+	background-color: #2980b9;
+}
+.xanhla{
+	background-color:#27ae60;
+}
+.tim{
+	background-color:#8e44ad;
+}
+.content-ct{
+	margin-left:-30px;
+}
+/*Menu left*/
+.menu-left{
+	padding-left:0;
+	padding-right:0;
+	min-height: 900px;
+}
+.navbar-form{
+	border:none;
+}
+.navbar-collapse{
+	border:none;
+}
+.menu-left img{
+	margin:auto;
+}
+.glyphicon-chevron-down{
+	font-size: 12px;
+}
+.menu-left li a{
+	color:#FFF;
+	line-height: 40px;
+	font-weight: bold;
+}
+.menu-left li a:hover{
+	background:#CCC;
+	color:blue;
+}
+.text-danger{
+	color:#FFF;
+}
+.text-danger a{
+	color:#FFF;
+}
+.side-nav .active{
+	background-color: #CCC;
+}
+.side-nav .active a{
+	color:blue;
+	background:#FFF;
+	border-right:1/px solid #222;
+}
+/*Content overview*/
+.panel-over{
+	height:160px;
+}
+.h4-one{
+	color:red;
+	text-transform: uppercase;
+}
+.h4-two{
+	color:blue;
+	text-transform: uppercase;
+}
+.panel-over-one{
+	border: 1px solid red;
+	background-color: #e74c3c;
+}
+.panel-over-two{
+	border: 1px solid blue;
+	background-color: #3498db;
+}
+.panel-over-three{
+	border: 1px solid yellow;
+	background-color: #f1c40f;
+}
+.gly-one{
+	font-size: 70px;
+	color:#FFF;
+}
+.panel-add{
+	margin-top:15px;
+}
+.namepan{
+	text-align: center;
+}
+.badge-new{
+	width:70px;
+	height:60px;
+	font-size: 18px;
+	margin-top:10px;
+	padding-top: 20px;
+	background-color: #FFF;
+	color:red;
+}
+
+
+.panel-hislg{
+	
+}
+
+
+@media(max-width:992px) {
+	.content-ct{
+		margin-left:-15px;
+	}
+	.menu-left{
+		min-height: 300px;
+	}
+}

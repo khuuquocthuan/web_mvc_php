@@ -1,0 +1,151 @@
+@font-face{
+	font-family: UTM;
+	src: url(../fonts/myfont.ttf);
+}
+.menuactive{
+	color:#9D2020;
+}
+body{
+	background-color: rgb(44, 62, 80);
+}
+
+#header{
+	padding:2.5em 0;
+	color:#FFF;
+	font-family: UTM;
+	font-weight: normal;
+}
+#header h2{
+	font-size: 29px;
+}
+.login{
+	min-height:200px;
+	background-color: #FFF;
+	border-radius:4px;
+}
+.ribbonvip{
+	margin-left:-30px;
+	margin-top:-5px;
+}
+.h2.ribbon-wrapper{
+	position: relative;
+}
+
+.h2 .ribbon-front {
+	background-color: #ffa300;
+	height: 43px;
+	width: 145px;
+	position: relative;
+	left:-10px;
+	z-index: 2;
+	top: 22px;
+}
+
+.h2 .ribbon-edge-topleft,
+.h2 .ribbon-edge-topright,
+.h2 .ribbon-edge-bottomleft,
+.h2 .ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+.h2 .ribbon-edge-topleft,
+.h2 .ribbon-edge-topright {
+}
+
+.h2 .ribbon-edge-bottomleft,
+.h2 .ribbon-edge-bottomright {
+	top:65px;
+}
+
+.h2 .ribbon-edge-topleft,
+.h2 .ribbon-edge-bottomleft {
+	left: -10px;
+	border-color: transparent #e17e02 transparent transparent;
+}
+
+.h2 .ribbon-edge-topleft {
+	top: -0px;
+	border-width: 0px 10px 0 0;
+}
+.h2 .ribbon-edge-bottomleft {
+	  border-width: 0 10px 15px 0;
+}
+
+.h2 .ribbon-edge-topright,
+.h2 .ribbon-edge-bottomright {
+	left: 180px;
+	border-color: transparent transparent transparent #e17e02;
+}
+
+.h2 .ribbon-edge-topright {
+	top: -0px;
+	border-width: 0px 0 0 0px;
+}
+.h2 .ribbon-edge-bottomright {
+	border-width: 0 0 0px 0px;
+}
+.ribbon-edge-topleft2 {
+  position: absolute;
+  z-index: 1;
+  border-style: solid;
+  height: 0px;
+  width: 0px;
+}
+.ribbon-edge-topleft2 {
+   left: 135px;
+  border-color: transparent #ffa300 transparent transparent;
+}
+.ribbon-edge-topleft2 {
+  top: 22px;
+  border-width: 22px 20px 21px 37px;
+  transform: rotate(-180deg);
+  border-radius: 1px;
+}
+.ribbon-front h4{
+	margin-top:-30px;
+	padding:12px;
+	font-size: 18px;
+	color:#FFF;
+}
+.form-login{
+	margin-top:40px;
+}
+.glyphicon{
+	color:#337ab7;
+}
+input[type=text]{
+	padding-left:28px;
+	margin-bottom:-15px;
+}
+#password{
+	padding-left:28px;
+	margin-bottom:-15px;
+}
+.login-user{
+	position:relative;
+	top:-10px;
+	left:10px;
+}
+.login-pass{
+	position:relative;
+	top:-10px;
+	left:10px;
+}
+button{
+	margin-top:15px;
+}
+#footer{
+	color:#FFF;
+	margin-top:50px;
+}
+
+
+@media(max-width:992px) {
+	.login{
+		min-height:350px;
+	}
+}
